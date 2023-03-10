@@ -380,6 +380,17 @@ const (
 	Outline Attr = "outline"
 	// F is not in the documentation, but found in the transparency.gv.txt example
 	F Attr = "f"
+
+	// Extended label in fork cpflat/gographviz
+	Class     Attr = "class"
+	Conf      Attr = "conf"
+	Info      Attr = "info"
+	HeadClass Attr = "headclass"
+	HeadConf  Attr = "headconf"
+	HeadInfo  Attr = "headinfo"
+	TailClass Attr = "tailclass"
+	TailConf  Attr = "tailconf"
+	TailInfo  Attr = "tailinfo"
 )
 
 var validAttrs = map[string]Attr{
@@ -559,4 +570,14 @@ var validAttrs = map[string]Attr{
 	string(SSize):    SSize,
 	string(Outline):  Outline,
 	string(F):        F,
+
+	string(Class):     Class,
+	string(Conf):      Conf,
+	string(Info):      Info,
+	string(HeadClass): HeadClass,
+	string(HeadConf):  HeadConf,
+	string(HeadInfo):  HeadInfo,
+	string(TailClass): TailClass,
+	string(TailConf):  TailConf,
+	string(TailInfo):  TailInfo,
 }
