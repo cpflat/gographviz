@@ -1,4 +1,4 @@
-module github.com/awalterschulze/gographviz
+module github.com/cpflat/gographviz
 
 go 1.19
 
